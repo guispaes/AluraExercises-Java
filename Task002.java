@@ -6,11 +6,11 @@ public class Task002 {
         System.out.println("Adding two numbers!");
         Scanner input = new java.util.Scanner(System.in);
         System.out.print("Type the first number: ");
-        Integer numberOne = input.nextInt();
+        int numberOne = input.nextInt();
         System.out.print("Type the second number: ");
-        Integer numberTwo = input.nextInt();
+        int numberTwo = input.nextInt();
         input.close();
-        Integer sum = numberOne + numberTwo;
+        int sum = numberOne + numberTwo;
         System.out.println(numberOne + " + " + numberTwo + " = " + sum);
     }    
 }
